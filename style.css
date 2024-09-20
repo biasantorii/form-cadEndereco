@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap'); /* Fonte alegre */
+ 
+/* Estilização geral */
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif; /* Fonte mais alegre */
     background-color: #121212; /* Cor de fundo escura */
     color: #e0e0e0; /* Cor do texto */
 }
@@ -11,13 +14,15 @@ body {
     margin: 50px auto;
     padding: 20px;
     background-color: #1f1f1f; /* Fundo do formulário */
-    border-radius: 8px;
+    border-radius: 4px; /* Bordas mais quadradas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
  
 h1 {
     text-align: center;
     color: #ffffff; /* Cor do título */
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
  
 .form-group {
@@ -37,8 +42,10 @@ input, select {
     background-color: #2c2c2c; /* Fundo dos campos de entrada */
     color: #e0e0e0; /* Cor do texto nos campos */
     border: 1px solid #444; /* Borda dos campos */
-    border-radius: 4px;
+    border-radius: 4px; /* Bordas mais quadradas */
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Fonte alegre */
+    font-size: 16px;
 }
  
 input::placeholder {
@@ -53,37 +60,24 @@ input::placeholder {
 .submit-btn {
     width: 100%;
     padding: 12px;
-    background-color: #6200ea; /* Cor do botão */
+    background-color: #ff5722; /* Cor do botão */
     color: #ffffff;
     border: none;
-    border-radius: 4px;
+    border-radius: 4px; /* Bordas mais quadradas */
     cursor: pointer;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif; /* Fonte alegre */
+    font-weight: 600;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
  
 /* Animação do botão ao passar o mouse */
 .submit-btn:hover {
-    background-color: #3700b3; /* Cor do botão ao passar o mouse */
+    background-color: #e64a19; /* Cor do botão ao passar o mouse */
     transform: translateY(-2px); /* Elevação do botão ao passar o mouse */
 }
  
 /* Animação do botão ao clicar */
-.submit-btn:active {
-    background-color: #29007d; /* Cor do botão ao clicar */
-    transform: translateY(1px); /* Pressão do botão ao clicar */
-}
- 
-@media (max-width: 480px) {
-    .form-container {
-        padding: 15px;
-    }
- 
-    input, select {
-        font-size: 14px;
-    }
- 
-    .submit-btn {
-        font-size: 14px;
-    }
+.submit-btn:active  {
+    background-color: #d84315; 
 }

@@ -24,7 +24,7 @@ const preencherFormulario = (endereco) =>{
     document.getElementById('uf').value = endereco.uf;
 }
 // Função de consumo de API ViaCEP
-const pesquisarCEP = async() =>{
+const pesquisarCep = async() =>{
     limparFormulario();
     const url = `http://viacep.com.br/ws/${cep.value}86087000/json/`;
 
@@ -44,3 +44,4 @@ const pesquisarCEP = async() =>{
 }
 
 // Adiciona escutador para executar consumo de API da ViaCEP
+document.getElementById('cep').addEventListener('focusout', pesquisarCep);

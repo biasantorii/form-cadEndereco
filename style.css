@@ -22,7 +22,7 @@ h1 {
     text-align: center;
     color: #ffffff; /* Cor do título */
     font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
  
 .form-group {

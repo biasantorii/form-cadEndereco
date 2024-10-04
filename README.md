@@ -97,5 +97,5 @@ HTML para a estrutura da página.
 
  
  # 💋AUTORES
- [<img loading="bia.jpg" src="bia.jpg" width=115><br><sub>Ana Beatriz Silva.</sub>](https://github.com/biasantorii) |
+ [<img loading="bia2.jpeg" src="bia2.jpeg" width=115><br><sub>Ana Beatriz Silva.</sub>](https://github.com/biasantorii) |
 | :---:

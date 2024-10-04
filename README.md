@@ -1,4 +1,5 @@
 #  - Projeto cadastro de endereço com cunsumo de API (VIACEP)
+Este projeto consiste em um sistema de consulta de endereço baseado no CEP (Código de Endereçamento Postal) brasileiro. O sistema faz uma requisição a uma API pública (ViaCEP) e preenche automaticamente os campos do formulário de endereço, como logradouro, bairro, cidade e estado.
 
 
  # async
